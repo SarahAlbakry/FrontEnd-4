@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>loremipsum</title>
+    <link href="StyleOne.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <!-- section of title -->
+        <div>
+            <h3 class="f5 cl-orange">Generated Lorem Ipsum</h3>
+        </div>
+        <!-- section fo header -->
+        <div class="page-generator__actions page-generator__actions--top">
+            <form class="page-generator__options" action="LoremIp.html" method="get">
+                <input class="page-generator__input " type="text" name="n" placeholder="0" value="5" maxlength="3" autocomplete="off" id="val">
+                <select class="page-generator__select" name="t" style="" id="selec">
+                    <option value="p">Paragraphs</option>
+                    <option value="s">Sentences</option>
+                    <option value="w">Words</option>
+                </select>
+                <input class="page-generator__submit" type="button" value="Generate!" id="sub">
+            </form>
+            <button class="page-generator__button" id="ctr" >
+                <span class="page-generator__button-text ">Copy</span>
+            </button>
+
+        </div>
+        <!-- section of write in text -->
+        <div class="page-generator__text page-generator__text--top ">
+            <div class="page-generator__overlay"></div>
+            <div class="page-generator__clipbox "></div>
+            <div class="page-generator__output " id="output">
+                
+            </div>
+        </div>
+    </div>
+    <div id="xxx"></div>
+
+
+    <script src="JS.js"></script>
+</body>
+</html>
